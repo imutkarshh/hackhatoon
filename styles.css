@@ -1,0 +1,84 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b31a1a;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h2 {
+    margin-bottom: 10px;
+}
+
+.jumbotron p {
+    margin-bottom: 20px;
+}
+
+.jumbotron a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.jumbotron a:hover {
+    background-color: #ed4747;
+}
+
+/* Footer styles */
+footer {
+    background-color: #ca4343;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
